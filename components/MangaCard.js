@@ -1,4 +1,4 @@
-export default function MangaCard({ item }: any) {
+export default function MangaCard({ item }) {
   const thumbnail = `https://storage.shngm.id/low/unsafe/filters:format(webp):quality(70)/thumbnail/image/${item.thumbnail_id}.jpg`;
 
   return (
